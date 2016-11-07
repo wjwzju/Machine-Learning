@@ -110,8 +110,8 @@ pause;
 %% ============== Part 4: Predict and Accuracies ==============
 %  After learning the parameters, you'll like to use it to predict the outcomes
 %  on unseen data. In this part, you will use the logistic regression model
-%  to predict the probability that a student with score 45 on exam 1 and 
-%  score 85 on exam 2 will be admitted.
+%  to predict the probability that a student with score 20 on exam 1 and 
+%  score 80 on exam 2 will be admitted.
 %
 %  Furthermore, you will compute the training and test set accuracies of 
 %  our model.
@@ -132,4 +132,3 @@ fprintf('Train Accuracy: %f\n', mean(double(p == y)) * 100);
 
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
-
