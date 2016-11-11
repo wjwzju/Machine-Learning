@@ -2,4 +2,5 @@
 /machine-learning-ex1/ex1/token.mat
 lib
 /machine-learning-ex2/*.pdf
-token
+token.mat
+*.pdf
